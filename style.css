@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    background-color: #1E1E1E;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+#logoDNC {
+    width: 164px;
+}
+
+header {
+    margin-top: 42px;
+    margin-left: 55px;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumpy {
+    font-size: 20px;
+    font-family: 'Helvetica';
+    margin-top: -25px;
+}
+
+.formulario {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway';
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    width: 524px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+form input::placeholder {
+    color: #616161;
+    font-size: 15px;
+}
+
+input[type="submit"] {
+    background-color: #0C70F2;
+    font-family: 'Raleway';
+    color: white;
+    font-weight: 800;
+    width: 564px;
+    border: 0px;
+    padding: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1c78f0;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
